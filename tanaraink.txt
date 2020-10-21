@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html>
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" href="styles.css">
@@ -16,15 +16,20 @@
         </div>
     </div>
     <div id="tartalom">
-        <h1>Kapcsolat</h1>
-        <form method="post">
-            <fieldset>
-                <p>Név:<br><input type="text" name="nev" value=""></p>
-                <p>Email:<br><input type="text" name="email" value=""></p>
-                <p>Üzenet:<br><textarea rows="8" cols="60" name="uzenet" value=""></textarea></p>
-                <p><input type="submit" name="mehet" value="mehet"> <input type="reset" name="torol" value="töröl"></p>				
-            </fieldset>
-        </form>
+        <h1>Tanáraink</h1>
+        <ul>
+            -<il>Latin táncok<br>
+                Szabó Stefánia</il>
+                
+            -<il>Társastánc<br>
+                Józsefé Nagy Dóra</il>
+                
+            -<il>Modern tánc<br>
+                John Smith</il>
+                
+            -<il>Rock & Roll, Jazz<br>
+                Kis Tamara</il>
+        </ul>
     </div>
 </body>
 </html>
